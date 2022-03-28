@@ -1,0 +1,18 @@
+import options from "./options.js";
+
+export default {
+    log,
+    write
+};
+
+export function log(...args: any) {
+    if (options.verbose) {
+        console.log.apply(null, [...arguments]);
+    }
+}
+
+export function write(data: string) {
+    if (options.verbose) {
+        process.stdout.write(data);
+    }
+}
