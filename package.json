@@ -1,6 +1,6 @@
 {
     "name": "usda-food-data-api-builder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "USDA Food Data API database builder for self-hosted API access to the USDA Food Data database",
     "main": "dist/index.js",
     "bin": "dist/index.js",
