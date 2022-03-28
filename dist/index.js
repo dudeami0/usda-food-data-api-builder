@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import "source-map-support/register.js";
 import db from "usda-food-data-api-schema";
 import ArchiveDownloader from "./ArchiveDownloader.js";
