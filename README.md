@@ -4,7 +4,7 @@
 
 **NOTE: THIS PACKAGE IS UNRELATED TO THE OFFICIAL USDA FOOD DATA API**
 
-Data links references/used by this program provided by:
+Data links referenced/used by this program provided by:
 
 > U.S. Department of Agriculture, Agricultural Research Service. FoodData
 > Central, 2019. [fdc.nal.usda.gov](https://fdc.nal.usda.gov/).
@@ -116,7 +116,7 @@ the data URLs in that version `ts/downloads.ts` file. These releases are just
 
 ```shell
 # mongorestore --host=localhost --port=27017 --gzip \
-    --archive=usda-food-data-api-linked-v1.0.0.tar.gz
+    --archive=usda-food-data-api-linked-v1.0.3.tar.gz
 ```
 
 ## Thanks
